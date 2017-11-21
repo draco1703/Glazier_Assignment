@@ -169,7 +169,7 @@ public class DAO implements DAOInterface
     }
 
     @Override
-    public User getUser(int id) {
+    public Users getUser(int id) {
         try
         {
             dbc.open();
